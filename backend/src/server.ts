@@ -1,15 +1,22 @@
 import "./config/env";
 import express from "express";
 import cors from "cors";
-import { geminiProvider } from "./providers/gemini.provider";
-import { firecrawlProvider } from "./providers/firecrawl.provider";
-import { tavilyProvider } from "./providers/tavily.provider";
-import { analysisService } from "./analysis/analysis.service";
+
 import analysisRouter from "../src/analysis/analysis.routes";
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://reconly.site",
+      "https://www.reconly.site",
+      "http://localhost:3000",
+    ],
+    credentials: true,
+  }),
+);
+
 app.use(express.json());
 
 app.use("/api", analysisRouter);
