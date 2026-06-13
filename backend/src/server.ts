@@ -2,7 +2,7 @@ import "./config/env";
 import express from "express";
 import cors from "cors";
 
-import analysisRouter from "../src/analysis/analysis.routes";
+import analysisRouter from "./analysis/analysis.routes";
 
 const app = express();
 
