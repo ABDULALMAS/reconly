@@ -1,4 +1,4 @@
-# Reconly Vision
+# Reconalyst Vision
 
 ## Mission
 
@@ -30,7 +30,7 @@ Users spend 30–60+ minutes trying to understand:
 
 Paste a company URL.
 
-Reconly gathers information from the company website and external sources, then generates a structured company intelligence report.
+Reconalyst gathers information from the company website and external sources, then generates a structured company intelligence report.
 
 ---
 

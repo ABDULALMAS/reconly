@@ -47,7 +47,7 @@ export const analysisErrors = {
       AnalysisErrorCode.UNSUPPORTED_WEBSITE,
       422,
       reason ??
-        "Reconly currently supports company and product websites.",
+        "Reconalyst currently supports company and product websites.",
     ),
 
   aiGenerationFailed: (message?: string) =>

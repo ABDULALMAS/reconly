@@ -9,8 +9,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://reconly.site",
-      "https://www.reconly.site",
+      "https://reconalyst.com",
+      "https://www.reconalyst.com",
       "http://localhost:3000",
     ],
     credentials: true,
@@ -24,7 +24,7 @@ app.use("/api", analysisRouter);
 app.get("/health", (_, res) => {
   res.status(200).json({
     success: true,
-    message: "Reconly API is running",
+    message: "Reconalyst API is running",
   });
 });
 

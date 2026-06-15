@@ -1,4 +1,4 @@
-# Reconly Architecture
+# Reconalyst Architecture
 
 ## High-Level Flow
 

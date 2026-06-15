@@ -12,21 +12,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://reconly.site"; 
+const siteUrl = "https://reconalyst.com"; 
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
   title: {
-    default: "Reconly | AI-Powered Company Research & Analysis",
-    template: "%s | Reconly",
+    default: "Reconalyst | AI-Powered Company Research & Analysis",
+    template: "%s | Reconalyst",
   },
 
   description:
-    "Reconly helps you research, analyze, and understand companies using AI-powered insights, competitor analysis, and business intelligence.",
+    "Reconalyst helps you research, analyze, and understand companies using AI-powered insights, competitor analysis, and business intelligence.",
 
   keywords: [
-    "Reconly",
+    "Reconalyst",
     "AI company analysis",
     "business intelligence",
     "company research",
@@ -36,15 +36,15 @@ export const metadata: Metadata = {
     "AI insights",
   ],
 
-  applicationName: "Reconly",
+  applicationName: "Reconalyst",
 
   authors: [
     {
-      name: "Reconly",
+      name: "Reconalyst",
     },
   ],
 
-  creator: "Reconly",
+  creator: "Reconalyst",
 
   robots: {
     index: true,
@@ -74,8 +74,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "Reconly",
-    title: "Reconly",
+    siteName: "Reconalyst",
+    title: "Reconalyst",
     description:
       "Research and analyze companies faster with AI-powered business intelligence.",
     images: [
@@ -83,14 +83,14 @@ export const metadata: Metadata = {
         url: "https://res.cloudinary.com/dpotlq8na/image/upload/v1781370402/icon_xnumxx.png",
         width: 1200,
         height: 630,
-        alt: "Reconly",
+        alt: "Reconalyst",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Reconly",
+    title: "Reconalyst",
     description:
       "Research and analyze companies faster with AI-powered business intelligence.",
     images: [

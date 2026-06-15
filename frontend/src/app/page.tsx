@@ -83,7 +83,7 @@ export default function Home() {
           onClick={handleReset}
           className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-300 hover:text-white transition-colors"
         >
-          Reconly
+          Reconalyst
         </button>
 
         <AnimatePresence>

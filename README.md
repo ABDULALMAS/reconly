@@ -1,4 +1,4 @@
-# Reconly
+# Reconalyst
 
 Understand a company in minutes before deciding whether it is worth your time.
 
@@ -16,7 +16,7 @@ Users often spend 30–60+ minutes trying to understand:
 
 ## Solution
 
-Reconly analyzes a company using:
+Reconalyst analyzes a company using:
 
 * Website data
 * External research
@@ -78,7 +78,7 @@ Structured Report
 ## Project Structure
 
 ```text
-reconly/
+Reconalyst/
 ├── docs/
 ├── frontend/
 ├── backend/
@@ -113,4 +113,4 @@ Out of scope:
 
 I was spending significant time researching startups before deciding whether they were worth pursuing.
 
-Reconly was built to turn scattered information into a structured decision-making framework and reduce company research from hours to minutes.
+Reconalyst was built to turn scattered information into a structured decision-making framework and reduce company research from hours to minutes.
