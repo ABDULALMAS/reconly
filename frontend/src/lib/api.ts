@@ -22,7 +22,6 @@ export const analyzeCompany = async (
   const data =
     await response.json();
 
-    console.log("data:",data)
 
   if (!response.ok) {
     throw {
